@@ -4,7 +4,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav {
+/* ---------------------- */
+/* Navbar           */
+/* ---------------------- */
+
+nav {
   @apply flex
   flex-row
   shadow-xl
@@ -14,4 +18,68 @@
 
 .nav--logo {
   @apply max-w-[100px];
+}
+
+/* ---------------------- */
+/* Hero          */
+/* ---------------------- */
+
+section {
+  @apply flex
+  flex-col
+  p-5;
+}
+
+.hero--img {
+  @apply flex
+  justify-center
+  ml-8 mr-8;
+}
+
+.hero--content {
+  @apply inline-block
+  justify-start
+  p-5;
+}
+
+.hero--head {
+  @apply text-4xl
+  font-bold
+  mb-4;
+}
+
+.hero--paragraph {
+  @apply text-base
+  mt-0;
+}
+
+/* ---------------------- */
+/* Card         */
+/* ---------------------- */
+
+.card {
+  @apply w-44
+    text-[12px];
+}
+
+.card--img {
+  @apply w-[100%]
+    rounded-lg;
+}
+
+.card--status {
+  @apply flex
+    items-center;
+}
+
+.card--star {
+  @apply h-[14px];
+}
+
+.bold {
+  @apply font-bold;
+}
+
+.gray {
+  @apply text-[#918E9B];
 }
