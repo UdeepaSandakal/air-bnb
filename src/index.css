@@ -64,16 +64,24 @@ section {
 
 .card--img {
   @apply w-[100%]
+  h-[65%]
     rounded-lg;
 }
 
 .card--status {
   @apply flex
-    items-center;
+    items-center
+    gap-1;
 }
 
 .card--star {
   @apply h-[14px];
+}
+
+.card--list {
+  @apply flex
+  flex-row
+  gap-5;
 }
 
 .bold {
